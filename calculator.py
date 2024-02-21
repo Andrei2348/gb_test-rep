@@ -31,7 +31,7 @@ btn_list = [
 # Создаем класс: экран калькулятора
 class CalculatorScreen():
   def __init__(self):
-    self.textArea = Entry(master = frame_a)
+    self.textArea = Entry(master = frame_b)
     self.textArea.configure(bg = '#fff',
                             fg = '#000',
                             disabledbackground = "#fff",

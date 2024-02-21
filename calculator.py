@@ -18,7 +18,7 @@ dot_flag = False
 # Создаем список символов действия (Необходимы для отслеживания нажатия)
 elems = ['+', '-', '*', '/']
 symbols = ['=', '.', 'C', 'CE']
-nums = list(range(0, 101))
+nums = list(range(0, 10))
 
 # Создаем список кнопок клавиатуры калькулятора
 btn_list = [
@@ -38,7 +38,7 @@ class CalculatorScreen():
                             disabledforeground = "#000",
                             font = 'Arial 34',
                             state = DISABLED,
-                            width = 32,
+                            width = 36,
                             justify = RIGHT)
     self.textArea.pack()
     self.write()

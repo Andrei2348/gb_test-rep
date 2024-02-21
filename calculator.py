@@ -8,6 +8,7 @@ root['bg'] = '#ccc'
 
 frame_a = Frame()
 frame_b = Frame()
+frame_c = Frame()
 frame_a.pack()
 frame_b.pack()
 
